@@ -68,5 +68,5 @@ make DESTDIR=%{buildroot} install
 %license LICENSE
 
 %changelog
-* Sun Oct 8 2020 Jim Howard <jh.xsnrg+fedora@gmail.com> 1.4.git
+* Sun Oct 08 2020 Jim Howard <jh.xsnrg+fedora@gmail.com> 1.4.git
 - introduction of spec file to build RPM packages from git
