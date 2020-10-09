@@ -41,7 +41,7 @@ An Astrometric Plate Solver for Mac, Linux, and Windows, built on Astrometry.net
 %install
 #find %buildroot -type f \( -name '*.so' -o -name '*.so.*' \) -exec chmod 755 {} +
 %cmake_install
-%ldconfig_scriptlets libs
+%ldconfig_scriptlets
 
 %files
 %{_libdir}/*
