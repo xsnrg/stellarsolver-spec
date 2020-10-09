@@ -37,7 +37,7 @@ An Astrometric Plate Solver for Mac, Linux, and Windows, built on Astrometry.net
 # Disable LTO
 %define _lto_cflags %{nil}
 
-%cmake .
+%cmake ..
 %cmake_build
 
 %install
