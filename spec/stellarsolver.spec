@@ -1,3 +1,5 @@
+%undefine __cmake_in_source_build
+
 Name: stellarsolver
 Version: 1.4.git
 Release: %(date -u +%%Y%%m%%d%%H%%M%%S)%{?dist}
